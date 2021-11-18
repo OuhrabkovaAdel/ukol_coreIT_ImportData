@@ -1,0 +1,5 @@
+CREATE USER 'coreITukol'@'localhost' IDENTIFIED BY 'coreITukol';
+
+GRANT ALL PRIVILEGES ON * . * TO 'coreITukol'@'localhost';
+
+ALTER USER 'coreITukol'@'localhost' IDENTIFIED WITH mysql_native_password BY 'coreITukol';
